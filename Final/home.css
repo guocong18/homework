@@ -9,7 +9,7 @@ html, body {
   }
   header {
     width:100%;
-    height:145vh;
+    height: 150px;
     background-image: url(https://files.toodaylab.com/2023/09/chagee_keep_20230918234209_01.jpg);
     background-size:cover;
   }
