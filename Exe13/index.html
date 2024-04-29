@@ -3,11 +3,22 @@
     <head>
        <meta charset="utf-8">
        <title>Exe13</title>
+       <style>
+        .circle{
+            list-style: outside square;
+        }
+        .decimal-lz{
+            list-style: inside decimal-leading-zero;
+        }
+        .ball{
+            list-style: inside url(img/cat.png);
+        }
+       </style>
     </head>
     <body> 
         <h1>制作项目清单</h1>
         <h2>项目符号清单</h2>
-        <ul>
+        <ul class="circle">
             <li>List1</li>
             <li>List2</li>
             <li>List3</li>
@@ -15,7 +26,7 @@
         <hr>
 
         <h2>有编号的项目清单</h2>
-        <ul>
+        <ul class="demical">
             <li>List1</li>
             <li>List2</li>
             <li>List3</li>
@@ -23,5 +34,12 @@
         <hr>
 
         <h2>图片项目清单</h2>
+        <ul class="ball">
+            <li>List1</li>
+            <li>List2</li>
+            <li>List3</li>
+        </ul>
+
+        <hr>
     </body>
 </html>
