@@ -1,3 +1,88 @@
+<<<<<<< HEAD
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 25%;
+}
+
+body {
+  font-family: Poppins;
+  background-image: url();
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+
+  background-size: cover;
+}
+
+.content {
+  width: 90%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #0f1c3b;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.menu-icon {
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 40px;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width:580px) {
+=======
 html, body {
     margin:0;
     padding:0;
@@ -24,75 +109,41 @@ html, body {
     line-height:30px;
     text-align:justify;
   }
+>>>>>>> 3c44af61e9e0128263ea8a5d4e7a5efd0ead9021
   .logo {
-    position:fixed;
-    float:left;
-    margin:16px 36px;
-    color:#fff;
-    font-weight: bold;
-    font-size:24px;
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
   }
-  nav {
-    position:fixed;
-    width:100%;
-    background-color: #0f1c3b;
-  }
+
   nav ul {
-    list-style:none;
-    background: rgba(0,0,0,0);
-    overflow:hidden;
-    color:#fff;
-    padding:0;
-    text-align:center;
-    margin:0;
-    transition: 1s;
+    max-height: 0px;
+    background: #000;
   }
+
   nav.black ul {
-    background:#000;
+    background: #000;
   }
+
+  .showing {
+    max-height: 20em;
+  }
+
   nav ul li {
-    display:inline-block;
-    padding:20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
   }
-  nav ul li a {
-    text-decoration:none;
-    color:#fff;
-    font-size:20px;
-  }
+
   .menu-icon {
-    width:100%;
-    background:#000;
-    text-align:right;
-    box-sizing:border-box;
-    padding:15px 40px;  
-    color:#fff;
-    display:none;
+    display: block;
   }
+}
+.page1{
+  height: 100vh;
+}
+.page2 {
+  height: 100vh;
   
-  @media(max-width:580px) {
-    .logo {
-      position:fixed;
-      top:0;
-      margin-top:16px;
-    }
-    nav ul {
-      max-height:0px;
-      background:#000;
-    }
-    nav.black ul {
-      background:#000;
-    }
-    .showing {
-      max-height:20em;
-    }
-    nav ul li {
-      box-sizing:border-box;
-      width:100%;
-      padding:24px;
-      text-align: center;
-    }
-    .menu-icon {
-      display:block;
-    }
-  }
-  
+}
