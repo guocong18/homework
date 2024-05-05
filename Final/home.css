@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html,
 body {
   margin: 0;
@@ -82,7 +81,6 @@ nav ul li a {
 }
 
 @media(max-width:580px) {
-=======
 html, body {
     margin:0;
     padding:0;
@@ -99,7 +97,7 @@ html, body {
   header {
     width:100%;
     height: 150px;
-    background-image:url(https://files.toodaylab.com/2023/09/chagee_keep_20230918234209_01.jpg);
+    /* background-image:url(https://files.toodaylab.com/2023/09/chagee_keep_20230918234209_01.jpg); */
     background-size:cover;
   }
   .content {
@@ -109,7 +107,6 @@ html, body {
     line-height:30px;
     text-align:justify;
   }
->>>>>>> 3c44af61e9e0128263ea8a5d4e7a5efd0ead9021
   .logo {
     position: fixed;
     top: 0;
