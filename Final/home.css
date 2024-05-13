@@ -83,8 +83,10 @@ nav ul li a {
   color: #fff;
   display: none;
 }
-
-.carousel-caption d-none d-md-block{
+.textt {
+  color: black;
+}
+.carousel-caption{
   color: #0f1c3b;
 }
 
