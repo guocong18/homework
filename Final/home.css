@@ -84,6 +84,10 @@ nav ul li a {
   display: none;
 }
 
+.carousel-caption d-none d-md-block{
+  color: #0f1c3b;
+}
+
 @media(max-width:580px) {
 
 html, body {
