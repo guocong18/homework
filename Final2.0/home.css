@@ -6,7 +6,6 @@
 }
 
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -15,19 +14,65 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+main{
+  background-color:#efe8da;
+}
+footer{
+  height:20px;
+  background-color:#0f1c3b;
+  text-align:center;
+}
+footer p{
+  color:#fff;
+}
 
-section {
-  padding-block: min(20vh, 2rem);
-  width: calc(min(76.5rem, 90%));
-  margin-inline: auto;
-  color: #111;
+header {
+  background-color: #0f1c3b;
+  background-size:cover;
+  height: 20%;
+  width: 100%;
+  position:relative;
+}
+header ul{
+  position:absolute;
+  right:15vw;
+  top:0;
+  line-height:55px;
+}
+.logo {
+  padding:15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+header li{
+  display:inline;
+  margin-right:8vw;
+}
+header a{
+  color:white;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:17px;
+}
+header a:hover{
+  text-decoration:underline;
+}
 
-  h2 {
+ .newn{
     text-transform: capitalize;
-    letter-spacing: 0.025em;
-    font-size: clamp(2rem, 1.8125rem + 0.75vw, 2.6rem);
+    text-align:center;
+    color:#0f1c3b;
+    letter-spacing: 0.25em;
+    font-size:40px;
   }
 
+.news{
+  padding-block: min(20vh, 2rem);
+  width: calc(min(76.5rem, 90%));
+  margin-inline:auto;
+  color: #111;
+  
   a {
     display: inline-block;
     text-decoration: none;
