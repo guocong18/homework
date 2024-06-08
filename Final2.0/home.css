@@ -85,13 +85,13 @@ header a:hover{
 
     .card {
       &:nth-child(1) .box .icon .iconBox {
-        background: #d3b19a;
+        background: #1f2330;
       }
       &:nth-child(2) .box .icon .iconBox {
-        background: #70b3b1;
+        background: #3a2208;
       }
       &:nth-child(3) .box .icon .iconBox {
-        background: #d05fa2;
+        background: #eacf7d;
       }
 
       ul {
@@ -114,15 +114,15 @@ header a:hover{
         }
 
         .branding {
-          color: darken(#d3b19a, 40%);
+          color: darken(#6e7180, 40%);
         }
 
         .packaging {
-          color: darken(#70b3b1, 40%);
+          color: darken(#723706, 40%);
         }
 
         .marketing {
-          color: darken(#d05fa2, 40%);
+          color: darken(#56991a, 40%);
         }
       }
 
