@@ -25,9 +25,10 @@ main{
   background-color:#efe8da;
 }
 footer{
-  height: 100pxpx;
+  height: 100px;
   background-color:#0f1c3b;
   text-align:center;
+  line-height: 50px;
 }
 footer p{
   color:#fff;
