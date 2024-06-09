@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+.menu{
+  position: absolute;
+  right: 5vw;
+  top:0;
+  line-height: 80px;
+}
+
 body {
   justify-content: center;
   align-items: center;
