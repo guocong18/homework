@@ -10,3 +10,64 @@
 .about content h2{
     color: #0f1c3b;
 }
+
+header {
+    background-color: #0f1c3b;
+    background-size:cover;
+    height: 20%;
+    width: 100%;
+    position:relative;
+  }
+  header ul{
+    position:absolute;
+    right:15vw;
+    top:0;
+    line-height:65px;
+  }
+
+  .logo {
+    padding:15px;
+    color: #fff;
+    font-size: 24px;
+  }
+  header li{
+    display:inline;
+    margin-right:8vw;
+  }
+  header a{
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:17px;
+  }
+  header a:hover{
+    text-decoration:underline;
+  }
+  
+   .newn{
+      text-transform: capitalize;
+      text-align:center;
+      color:#0f1c3b;
+      letter-spacing: 0.25em;
+      font-size:40px;
+      height:30vh;
+    }
+  
+  .news{
+    padding-block: min(20vh, 2rem);
+    width: calc(min(76.5rem, 90%));
+    margin-inline:auto;
+    color: #111;
+  }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+    }
+  
+    .container {
+      margin-top: 5em;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: 2rem;
+    }
