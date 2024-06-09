@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  position: absolute;
+  right: 27vw;
+  top:0;
+  line-height: 80px;
+}
+
 header {
     background-color: #0f1c3b;
     background-size:cover;
