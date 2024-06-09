@@ -65,6 +65,7 @@ header a:hover{
     letter-spacing: 0.25em;
     font-size:40px;
     height:30vh;
+    background-position: center;
   }
 
 .news{
