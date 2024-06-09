@@ -43,6 +43,7 @@ header {
   position:relative;
 }
 header ul{
+  text-size-adjust: 20px;
   right:15vw;
   top: auto;
   line-height:65px;
