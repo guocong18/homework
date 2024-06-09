@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.menu{
+  position: absolute;
+  right: 27vw;
+  top:0;
+  line-height: 80px;
+}
+
 .content{
     text-align: center;
     margin: 50%;
