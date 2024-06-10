@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+main{
+  background-color:#efe8da;
+}
+
 .menu{
   position: absolute;
   right: 27vw;
@@ -137,7 +141,7 @@ img {
 
 .card_content {
   padding: 1rem;
-  background-color:#0f1c3b;
+  background-color:#9c7f49;
 }
 
 .card_title {
