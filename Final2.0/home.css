@@ -89,10 +89,12 @@ header a:hover{
     font-size:60px;
     justify-content: center;
     padding: 30px;
+    padding-bottom: 3.5rem;
   }
 
   .newn h2{
     font-size: 100px;
+    padding-top: 1rem;
   }
 
 .news{
