@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+h1{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
 .h2{
   scroll-margin-bottom: 100px;
   scroll-margin-top:80px;
