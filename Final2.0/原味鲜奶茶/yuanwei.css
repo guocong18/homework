@@ -165,7 +165,8 @@ img {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
-  margin: 0px
+  margin: 0px;
+  padding-top: 0.5rem;
 }
 
 .card_text {
@@ -175,6 +176,7 @@ img {
   margin-bottom: 1.25rem;    
   font-weight: 400;
   line-height: 2;
+  padding-top: 1rem;
 }
 .made_by{
   font-weight: 400;
