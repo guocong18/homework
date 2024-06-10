@@ -256,6 +256,11 @@ header a:hover{
   }
 }
 
-html {
-  scroll-behavior: smooth;
+@keyframes smoothScroll{
+  0%{transform: translateY(0);}
+  100%{transform: translateY(100%);}
+}
+
+.smooth-ccroll{
+  animation: smoothScroll 0.5s ease-in-out;
 }
