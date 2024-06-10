@@ -2,19 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 900
-
-body {
-  font-family: "Noto Serif TC", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 * {
   margin: 0;
   padding: 0;
+}
+
+h2{
+  scroll-margin-bottom: 100px;
+  scroll-margin-top:80px;
+  font-size: 40px;
 }
 
 .menu{
