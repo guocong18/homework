@@ -90,3 +90,14 @@ header {
       grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
       gap: 2rem;
     }
+
+    footer{
+      padding: 30px;
+      height: 100px;
+      background-color:#0f1c3b;
+      text-align:center;
+      line-height: 50px;
+    }
+    footer p{
+      color:#fff;
+    }
