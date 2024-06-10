@@ -86,6 +86,10 @@ header a:hover{
     padding: 30px;
   }
 
+  .newn{
+    font-size: 100px;
+  }
+
 .news{
   padding-block: min(20vh, 2rem);
   width: calc(min(76.5rem, 90%));
