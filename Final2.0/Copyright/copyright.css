@@ -8,3 +8,77 @@ footer{
   footer p{
     color:#fff;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section{
+    background-color: #efe8da;
+  }
+  
+  body{
+    background-color: #efe8da;
+  }
+  
+  .h2{
+    scroll-margin-bottom: 100px;
+    scroll-margin-top:80px;
+    font-size: 80px;
+  }
+  
+  .menu{
+    position: absolute;
+    right: 25vw;
+    top:0;
+    line-height: 80px;
+  }
+  
+  .content{
+      text-align: center;
+  }
+  
+  .about content h1{
+     font-size: 80px;
+      color: #0f1c3b;
+  }
+  
+  .about content h2{
+     font-size: 60px;
+      color: #0f1c3b;
+      margin: 20px 0;
+  }
+  
+  header {
+      background-color: #0f1c3b;
+      background-size:cover;
+      height: 20%;
+      width: 100%;
+      position:relative;
+    }
+    
+    header ul{
+      right:15vw;
+      top:0;
+      line-height:65px;
+    }
+  
+    .logo {
+      padding: 15px;
+      color: #fff;
+      font-size: 24px;
+    }
+    header li{
+      display:inline;
+      margin-right:8vw;
+    }
+    header a{
+      color:white;
+      text-decoration:none;
+      font-weight: bold;
+      font-size:17px;
+    }
+    header a:hover{
+      text-decoration:underline;
+    }
