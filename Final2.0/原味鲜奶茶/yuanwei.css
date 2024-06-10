@@ -108,8 +108,11 @@ img {
 
 .cards {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
 }
@@ -141,7 +144,7 @@ img {
 }
 
 .card_content {
-  padding: 1rem;
+  padding: 2rem;
   background-color:#9c7f49;
 }
 
