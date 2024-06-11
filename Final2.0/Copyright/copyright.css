@@ -82,3 +82,15 @@ footer{
     header a:hover{
       text-decoration:underline;
     }
+
+    .card-header{
+        background-color: #ffe7b2;
+    }
+
+    .card-body{
+        background-color: rgb(255, 246, 231);
+    }
+
+  .card-footer text-body-secondary{
+     background-color: #ffe7b2;
+  }
