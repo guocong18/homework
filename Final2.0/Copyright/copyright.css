@@ -84,14 +84,14 @@ footer{
     }
 
     .card-header{
-        background-color: #ffe7b2;
+        background-color: #ffe7b4;
         font-weight: bold;
     }
 
     .card-body{
-        background-color: rgb(255, 246, 231);
+        background-color: rgb(255, 241, 216);
     }
 
   .card-footer text-body-secondary{
-     background-color: #ffe7b2;
+     background-color: #ffe7b4;
   }
