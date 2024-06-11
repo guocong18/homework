@@ -85,6 +85,7 @@ footer{
 
     .card-header{
         background-color: #ffe7b2;
+        font-weight: bold;
     }
 
     .card-body{
