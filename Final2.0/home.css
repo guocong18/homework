@@ -8,6 +8,12 @@
   padding: 0;
 }
 
+video{
+  height: 900px;
+  width: 100% !important;
+}
+
+
 h1{
   padding-top: 2rem;
   padding-bottom: 1rem;
