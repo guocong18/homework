@@ -86,10 +86,6 @@ footer{
     .card-header{
         background-color: #ffe7b4;
         font-weight: bold;
-        padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
-        margin-bottom: 0;
-        color: var(--bs-card-cap-color);
-        border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
     }
 
     .card-body{
@@ -98,7 +94,4 @@ footer{
 
   .card-footer text-body-secondary{
      background-color: #ffe7b4;
-      padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
-      color: var(--bs-card-cap-color);
-      border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
   }
