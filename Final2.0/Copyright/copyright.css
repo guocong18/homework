@@ -95,3 +95,7 @@ footer{
   .card-footer text-body-secondary{
      background-color: #ffe7b4;
   }
+
+  .card-text-center{
+    margin: 2rem;
+  }
